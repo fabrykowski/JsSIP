@@ -1,5 +1,5 @@
 {
-  "name": "jssip",
+  "name": "@fabrykowski/jssip",
   "title": "JsSIP",
   "description": "the Javascript SIP library",
   "version": "3.6.2",
@@ -21,10 +21,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/versatica/JsSIP.git"
+    "url": "https://github.com/fabrykowski/JsSIP.git"
   },
   "bugs": {
-    "url": "https://github.com/versatica/JsSIP/issues"
+    "url": "https://github.com/fabrykowski/JsSIP/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "@types/debug": "^4.1.5",
